@@ -18,8 +18,6 @@ class CustomTextField extends StatelessWidget {
         decoration: InputDecoration(
             labelText: text,
             hintText: text,
-            border: OutlineInputBorder(),
-            focusedBorder: OutlineInputBorder()
         ),
       ),
     );

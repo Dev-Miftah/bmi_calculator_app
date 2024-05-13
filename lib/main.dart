@@ -13,7 +13,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'BMI Calculator',
-      theme: ThemeData(),
+      theme: ThemeData(
+        inputDecorationTheme: InputDecorationTheme(
+            border: OutlineInputBorder(),
+            focusedBorder: OutlineInputBorder()
+        )
+      ),
       home: HomeScreen(),
     );
   }
